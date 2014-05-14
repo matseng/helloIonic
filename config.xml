@@ -19,6 +19,11 @@
     -->
     <preference name="BackupWebStorage" value="none" />
 
+    <!-- matseng: added per tutorial instructions-->
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+
     <feature name="StatusBar">
       <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
