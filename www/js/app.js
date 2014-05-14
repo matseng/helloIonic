@@ -99,6 +99,10 @@ angular.module('todo', ['ionic'])
     $ionicSideMenuDelegate.toggleLeft();
   };
 
+  $scope.slideChanged = function() {
+    console.log("hello world");
+  };
+
 
   // Try to create the first project, make sure to defer
   // this by using $timeout so everything is initialized
